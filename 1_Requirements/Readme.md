@@ -7,10 +7,8 @@
 ---
 
 - Generates the invoices by just inserting the items, quantity and unit price.
-  *No need of calculator as it is capable of doing all operation that are required to generate invoce.
-  *Saves time, as it can do calculations and generate invoice simultaneously.
-
----
+- No need of calculator as it is capable of doing all operation that are required to generate invoce.
+- Saves time, as it can do calculations and generate invoice simultaneously.
 
 ## State of Art
 
@@ -36,8 +34,6 @@ This application can be implement in local grocery store or shops.
 
 Billing System is an application that will take input from user such as customer details and item details and then it will do all the calculations internally that are required and generate an invoice with customer name and total amount.
 
----
-
 ## SWOT Analysis
 
 ---
@@ -51,8 +47,6 @@ Billing System is an application that will take input from user such as customer
 | HLR_1 | Do Calculations        |
 | HLR_2 | GST or Discount Option |
 | HLR_3 | Generate Invoice       |
-
----
 
 ## Low Level Requirements
 
@@ -69,5 +63,3 @@ Billing System is an application that will take input from user such as customer
 | LLR_1 HLR_2 | Check if user want add GST or give Discount         |
 | LLR_2 HLR_2 | Do the operation on Total amount according to input |
 | LLR_3 HLR_2 | Return the final amount                             |
-
----
