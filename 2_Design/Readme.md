@@ -2,4 +2,4 @@
 
 ---
 
-![Alt text](../../../Diagram/Component1_diagram.png)
+![Alt text](Component1_diagram.png)
