@@ -1,23 +1,24 @@
 # Requirements
 
-Markup : - - - -
+---
 
 ## Features
 
-Markup : - - - -
+---
 
-Markup : _ Generates the invoices by just inserting the items, quantity and unit price.
-_ No need of calculator as it is capable of doing all operation that are required to generate invoce.
-\_ Saves time, as it can do calculations and generate invoice simultaneously.
-Markup : - - - -
+- Generates the invoices by just inserting the items, quantity and unit price.
+  *No need of calculator as it is capable of doing all operation that are required to generate invoce.
+  *Saves time, as it can do calculations and generate invoice simultaneously.
+
+---
 
 ## State of Art
 
-Markup : - - - -
+---
 
 ## 4W and 1H
 
-Markup : - - - -
+---
 
 ### What
 
@@ -34,30 +35,34 @@ This application can be implement in local grocery store or shops.
 ### How
 
 Billing System is an application that will take input from user such as customer details and item details and then it will do all the calculations internally that are required and generate an invoice with customer name and total amount.
-Markup : - - - -
+
+---
 
 ## SWOT Analysis
 
-Markup : - - - -
+---
 
 ## High Level Requirements
 
-Markup : - - - -
-HLR | Description
-------------- | -------------
-HLR_1 | Do Calculations
-HLR_2 | GST or Discount Option
-HLR_3 | Generate Invoice
-Markup : - - - -
+---
+
+| HLR   | Description            |
+| ----- | ---------------------- |
+| HLR_1 | Do Calculations        |
+| HLR_2 | GST or Discount Option |
+| HLR_3 | Generate Invoice       |
+
+---
 
 ## Low Level Requirements
 
-Markup : - - - -
-LLR HLR_1 | Description
-------------- | -------------
-LLR_1 HLR_1 | Get data from standard input
-LLR_2 HLR_1 | Compute the data by doing appropriate perations
-LLR_3 HLR_1 | Return the amount
+---
+
+| LLR HLR_1   | Description                                     |
+| ----------- | ----------------------------------------------- |
+| LLR_1 HLR_1 | Get data from standard input                    |
+| LLR_2 HLR_1 | Compute the data by doing appropriate perations |
+| LLR_3 HLR_1 | Return the amount                               |
 
 | LLR HLR_2   | Description                                         |
 | ----------- | --------------------------------------------------- |
@@ -65,4 +70,4 @@ LLR_3 HLR_1 | Return the amount
 | LLR_2 HLR_2 | Do the operation on Total amount according to input |
 | LLR_3 HLR_2 | Return the final amount                             |
 
-    Markup : - - - -
+---
