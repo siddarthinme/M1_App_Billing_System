@@ -14,6 +14,8 @@
 
 ---
 
+Yet To Done
+
 ## 4W and 1H
 
 ---
@@ -37,6 +39,25 @@ Billing System is an application that will take input from user such as customer
 ## SWOT Analysis
 
 ---
+
+#### Strengths
+
+- Saves Time
+- Automatic Calculations
+- No chance of errors in calculations of inputs are right
+- Feature to add GST or give Discount
+
+#### Weaknesses
+
+- Cannot came back, once forward to next step
+
+#### Opportunities
+
+- Can be implemented in any type of store or shops
+
+#### Threats
+
+- Other Similar Applications
 
 ## High Level Requirements
 
