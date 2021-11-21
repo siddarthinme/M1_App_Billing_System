@@ -73,11 +73,11 @@ Billing System is an application that will take input from user such as customer
 
 ---
 
-| LLR HLR_1   | Description                                     |
-| ----------- | ----------------------------------------------- |
-| LLR_1 HLR_1 | Get data from standard input                    |
-| LLR_2 HLR_1 | Compute the data by doing appropriate perations |
-| LLR_3 HLR_1 | Return the amount                               |
+| LLR HLR_1   | Description                                      |
+| ----------- | ------------------------------------------------ |
+| LLR_1 HLR_1 | Get data from standard input                     |
+| LLR_2 HLR_1 | Compute the data by doing appropriate operations |
+| LLR_3 HLR_1 | Return the amount                                |
 
 | LLR HLR_2   | Description                                         |
 | ----------- | --------------------------------------------------- |
