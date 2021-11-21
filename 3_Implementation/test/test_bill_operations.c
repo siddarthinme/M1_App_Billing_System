@@ -38,11 +38,12 @@ void test_total_bill(void){
 void test_net_total(void){
     TEST_ASSERT_EQUAL(36, net_total(40));
     TEST_ASSERT_EQUAL(72, net_total(80));
+    TEST_ASSERT_EQUAL(121.5, net_total(135));
 }
 
 void test_grand_total(void){
     TEST_ASSERT_EQUAL(94.4, grand_total(80));
     TEST_ASSERT_EQUAL(165.2, grand_total(140));
-    TEST_ASSERT_EQUAL(11.8, grand_total(10));
+    TEST_ASSERT_EQUAL(143.37, grand_total(121.5));
 
 }
