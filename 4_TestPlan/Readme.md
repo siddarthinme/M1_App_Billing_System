@@ -16,8 +16,8 @@
 
 ---
 
-| TestID | Description                      | Exp I/P | Exp O/P | Actual O/P | Type of Test      |
-| ------ | -------------------------------- | ------- | ------- | ---------- | ----------------- |
-| L_01   | Calculating Particular Item Bill | 5 , 27  | 135     | 135        | Requirement Based |
-| L_02   | Calculating Bill with Discount   | 135     | 121.5   | 121.5      | Requirement Based |
-| L_03   | Calculating Bill with GST        | 121.5   | 143.37  | 143.37     | Requirement Based |
+| TestID | Description                        | Exp I/P | Exp O/P | Actual O/P | Type of Test      |
+| ------ | ---------------------------------- | ------- | ------- | ---------- | ----------------- |
+| L_01   | Calculating Particular Item Bill   | 5 , 27  | 135     | 135        | Requirement Based |
+| L_02   | Calculating Bill with 10% Discount | 135     | 121.5   | 121.5      | Requirement Based |
+| L_03   | Calculating Bill with 18% GST      | 121.5   | 143.37  | 143.37     | Requirement Based |

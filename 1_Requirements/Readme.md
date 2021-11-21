@@ -14,7 +14,7 @@
 
 ---
 
-Yet To Done
+![State Diagram](stateart_diagram.png)
 
 ## 4W and 1H
 
