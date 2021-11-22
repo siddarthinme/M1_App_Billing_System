@@ -15,12 +15,13 @@
 
 
 /**
- * @brief Calculate the total bill of particular item
+ * @brief Calculate bill amount for particular item
  * 
- * @param i Representing particular item
- * @return Total amount of bill of particular item
+ * @param qty represents the quantity of prticular item
+ * @param price represents the price of particular item
+ * @return Bill amount of particular item
  */
-float total_bill( orders,int i);
+float total_bill(float qty, float price);
 
 /**
  * @brief Calculate Bill amount after applying Discount

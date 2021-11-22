@@ -25,14 +25,8 @@ int main()
 }
 
 void test_total_bill(void){
-    orders order,order1;
-    int i = 1;
-    order.itm[i].qty = 3;
-    order.itm[i].price =45;
-    order1.itm[i].qty = 5;
-    order1.itm[i].price =5;
-    TEST_ASSERT_EQUAL(135, total_bill(order, i));
-    TEST_ASSERT_EQUAL(25, total_bill(order1, i));
+    TEST_ASSERT_EQUAL(135, total_bill(5,27));
+    TEST_ASSERT_EQUAL(25, total_bill(5,5));
 }
 
 void test_net_total(void){

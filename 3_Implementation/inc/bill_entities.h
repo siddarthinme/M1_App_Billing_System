@@ -19,7 +19,7 @@
 typedef struct entity_item{
 char item[100];
 	float price;
-	int qty;
+	float qty;
 }items;
 
 typedef struct entity_orders{

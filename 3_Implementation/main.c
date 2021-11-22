@@ -52,10 +52,10 @@ int main(){
 			fgets(order.itm[i].item,20,stdin);
 			order.itm[i].item[strlen(order.itm[i].item)-1] = 0;
 			printf("Please Enter the Quantity:\t\t");
-			scanf("%d",&order.itm[i].qty);
+			scanf("%f",&order.itm[i].qty);
 			printf("Please enter the unit price:\t\t");
 			scanf("%f",&order.itm[i].price);
-			total+= total_bill(order,i);
+			total+= total_bill(order.itm[i].qty, order.itm[i].price);
 
 			
 		}
@@ -156,7 +156,7 @@ void generateBillHeader(char name[100], time_t date){
 }
 void generateBillBody(items item){
 	printf("%s\t\t",item.item);
-	printf("%d\t\t", item.qty);
+	printf("%.2f\t\t", item.qty);
 	printf("%.2f\t\t", item.qty * item.price);
 	printf("\n");
 }

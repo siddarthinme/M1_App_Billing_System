@@ -1,8 +1,8 @@
 #include "../inc/bill_operations.h"
 
-float total_bill( orders order,int i){
+float total_bill(float qty, float price){
     float total=0;
-        total = order.itm[i].qty * order.itm[i].price;
+        total = qty * price;
     return total;
 }
 
