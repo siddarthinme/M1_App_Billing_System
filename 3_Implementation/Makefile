@@ -5,7 +5,7 @@ PROJECT_NAME = Bill_Invoice
 BUILD = build
 
 # All source code files
-SRC = full.c\
+SRC = main.c\
 src/bill_operations.c
 
 # All test source files
