@@ -13,3 +13,9 @@
 ---
 
 ![Activity Diagram](Activity1_diagram.png)
+
+## Communication Diagram
+
+---
+
+![Communication Diagram](Communicationdia.png)
