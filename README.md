@@ -2,7 +2,7 @@
 
 ---
 
-[![Build_linux](https://github.com/samstyle321/M1_App_Billing_System/actions/workflows/build_linux.yml/badge.svg)](https://github.com/samstyle321/M1_App_Billing_System/actions/workflows/build_linux.yml)
+[![Build_linux](https://github.com/samstyle321/M1_App_Billing_System/actions/workflows/build_linux.yml/badge.svg)](https://github.com/samstyle321/M1_App_Billing_System/actions/workflows/build_linux.yml) [![Unit_Testing](https://github.com/samstyle321/M1_App_Billing_System/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/samstyle321/M1_App_Billing_System/actions/workflows/unit_testing.yml)
 
 [![Unit_Testing](https://github.com/samstyle321/M1_App_Billing_System/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/samstyle321/M1_App_Billing_System/actions/workflows/unit_testing.yml)
 
