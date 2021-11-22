@@ -2,6 +2,8 @@
 
 ---
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/97819b1acaeb4c5fb0b574fc87b92acd)](https://www.codacy.com/gh/samstyle321/M1_App_Billing_System/dashboard?utm_source=github.com&utm_medium=referral&utm_content=samstyle321/M1_App_Billing_System&utm_campaign=Badge_Grade)
+
 ## Billing System App
 
 ---
