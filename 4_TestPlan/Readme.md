@@ -9,9 +9,9 @@
 | TestID | Description                                | Exp I/P | Exp O/P                       | Actual O/P                    | Type of Test      |
 | ------ | ------------------------------------------ | ------- | ----------------------------- | ----------------------------- | ----------------- |
 | H_01   | Calculating Total Bill                     | 140     | 165.2                         | 165.2                         | Requirement Based |
-| H_02   | When user enter option which is not listed | ----    | Give message "Invalid option" | Give message "Invalid option" | Scenario Based    |
-| H_03   | When no saved invoices to show             | ----    | Show no invoice message       | Show no invoice message       | Scenarion based   |
-| H_04   | Generating Invoice with Customer name      | ----    | SUCCESS                       | SUCCESS                       | Requirement Based |
+| H_02   | Generating Invoice with Customer name      | ----    | SUCCESS                       | SUCCESS                       | Requirement Based |
+| H_03   | When user enter option which is not listed | ----    | Give message "Invalid option" | Give message "Invalid option" | Scenario Based    |
+| H_04   | When no saved invoices to show             | ----    | Show no invoice message       | Show no invoice message       | Boundary based    |
 
 ## Low Level Test Plan
 
