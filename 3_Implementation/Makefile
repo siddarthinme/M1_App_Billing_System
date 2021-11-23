@@ -51,7 +51,7 @@ all: $(SRC) $(BUILD)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(call FixPath,$(PROJECT_OUTPUT)
+	./$(call FixPath,$(PROJECT_OUTPUT))
 
 # Document the code using Doxygen
 doc:
