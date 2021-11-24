@@ -18,8 +18,6 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
-
-  
   RUN_TEST(test_net_total);
   RUN_TEST(test_total_bill);
   RUN_TEST(test_grand_total);
@@ -37,9 +35,10 @@ void test_total_bill(void){
 }
 
 void test_net_total(void){
-    TEST_ASSERT_EQUAL(36, net_total(40));
-    TEST_ASSERT_EQUAL(72, net_total(80));
-    TEST_ASSERT_EQUAL(121.5, net_total(135));
+   float num1 = 40,num2 = 80,num3 = 135;
+    TEST_ASSERT_EQUAL(36, net_total(num1));
+    TEST_ASSERT_EQUAL(72, net_total(num2));
+    TEST_ASSERT_EQUAL(121.5, net_total(num3));
 }
 
 void test_grand_total(void){
