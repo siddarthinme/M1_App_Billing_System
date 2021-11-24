@@ -41,7 +41,16 @@ float net_total(float total);
 
 float grand_total(float net_total);
 
-int save_bill( orders order);
+/*Function to generate Bill Header */
+void generate_bill_header(char name[100], time_t date);
+
+/*Function to generate Bill Body */
+void generate_bill_body( items item);
+
+/*Function to generate Bill Footer */
+void generate_bill_footer(float total);
+
+
 
 
 #endif  /* #define __BILL_OPERATIONS_H__ */

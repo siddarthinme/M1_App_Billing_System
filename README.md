@@ -14,3 +14,16 @@ Billing System is an application designed to generate the bill invoice to the cu
 However this application is specially designed for the local Grocery Store.
 
 ---
+
+## Folder Structure
+
+---
+
+| Folder            | Description                                  |
+| ----------------- | -------------------------------------------- |
+| 1_Requirements    | Describe about the requirements and research |
+| 2_Design          | Descibe about the design of Project          |
+| 3_Implementation  | All coding related files                     |
+| 4_Testplan        | Test cases                                   |
+| 5_Testplan        | Complete report of project                   |
+| 6_ImagesAndVideos | Images and Videos related to project         |

@@ -6,7 +6,8 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/bill_operations.c
+src/bill_operations.c\
+src/bill_generation_func.c
 
 # All test source files
 TEST_SRC = src/bill_operations.c\
