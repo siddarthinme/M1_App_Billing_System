@@ -22,7 +22,7 @@
 
 ---
 
-![Activity Diagram](Activity1_diagram.png)
+![Activity Diagram](Activity2.png)
 
 ### 2. Communication Diagram
 
