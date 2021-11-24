@@ -23,7 +23,7 @@ However this application is specially designed for the local Grocery Store.
 
 ---
 
-![State Diagram](stateart_diagram.png)
+![State Diagram](../1_Requirements/stateart_diagram.png)
 
 ## 4W and 1H
 
