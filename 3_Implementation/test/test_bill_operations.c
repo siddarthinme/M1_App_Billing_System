@@ -19,8 +19,9 @@ int main()
 
 /* Run Test functions */
 
-  RUN_TEST(test_total_bill);
+  
   RUN_TEST(test_net_total);
+  RUN_TEST(test_total_bill);
   RUN_TEST(test_grand_total);
   RUN_TEST(test_negative_total);
   RUN_TEST(test_negative_net_total);
