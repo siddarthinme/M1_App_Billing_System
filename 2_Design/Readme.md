@@ -4,13 +4,13 @@
 
 ## Structure Diagram
 
-### Component Diagram
+### 1. Component Diagram
 
 ---
 
 ![Component Diagram](Component1_diagram.png)
 
-### Class Diagram
+### 2. Class Diagram
 
 ---
 
@@ -18,13 +18,13 @@
 
 ## Behaviour Diagram
 
-### Activity Daigram
+### 1. Activity Daigram
 
 ---
 
 ![Activity Diagram](Activity1_diagram.png)
 
-### Communication Diagram
+### 2. Communication Diagram
 
 ---
 
