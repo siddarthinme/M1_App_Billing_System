@@ -36,9 +36,10 @@ void test_total_bill(void){
 
 void test_net_total(void){
    float num1 = 40,num2 = 80,num3 = 135;
-    TEST_ASSERT_EQUAL(36, net_total(num1));
-    TEST_ASSERT_EQUAL(72, net_total(num2));
-    TEST_ASSERT_EQUAL(121.5, net_total(num3));
+   float ans1 = 36,ans2 = 72,ans3 = 121.5;
+    TEST_ASSERT_EQUAL(ans1, net_total(num1));
+    TEST_ASSERT_EQUAL(ans2, net_total(num2));
+    TEST_ASSERT_EQUAL(ans3, net_total(num3));
 }
 
 void test_grand_total(void){
