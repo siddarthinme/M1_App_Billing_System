@@ -30,5 +30,5 @@
    - make run
 5. If you want to run the test cases then run the following command :
    - make test
-6. Clean all executable files by following command :
+6. Clean all executable files by the following command :
    - make clean
