@@ -31,3 +31,7 @@ However this application is specially designed for the local Grocery Store.
 | 4_Testplan        | Test cases                                   |
 | 5_Testplan        | Complete report of project                   |
 | 6_ImagesAndVideos | Images and Videos related to project         |
+
+## Manual
+
+[Manual to run project](/3_Implementation/Readme)
