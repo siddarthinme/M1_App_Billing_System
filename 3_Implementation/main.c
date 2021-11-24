@@ -10,6 +10,8 @@ int main(){
 	FILE *fp;
 	char name[50];
 
+
+
 	/* Dashboard */
 	while(contFlag =='y'){
 		system("clear");
@@ -32,27 +34,26 @@ int main(){
 		printf("Enter the name of customer :\t");
 		fgets(order.customer,50,stdin);
 		order.customer[strlen(order.customer)-1] =0;
-		//strcpy(ord.date,_DATE_);
 		printf("\n Enter number of items buyed:\t");
 		scanf("%d",&order.numOfitems);
 
-		for(int i=0;i<order.numOfitems;i++){
+		for(int i_input =0; i_input<order.numOfitems; i_input++){
 			fgetc(stdin);
 			printf("\n\n");
-			printf("Please Enter the name of item %d:\t",i+1);
-			fgets(order.itm[i].item,20,stdin);
-			order.itm[i].item[strlen(order.itm[i].item)-1] = 0;
+			printf("Please Enter the name of item %d:\t",i_input+1);
+			fgets(order.itm[i_input].item,20,stdin);
+			order.itm[i_input].item[strlen(order.itm[i_input].item)-1] = 0;
 			printf("Please Enter the Quantity:\t\t");
-			scanf("%f",&order.itm[i].qty);
+			scanf("%f",&order.itm[i_input].qty);
 			printf("Please enter the unit price:\t\t");
-			scanf("%f",&order.itm[i].price);
-			total+= total_bill(order.itm[i].qty, order.itm[i].price);
+			scanf("%f",&order.itm[i_input].price);
+			total+= total_bill(order.itm[i_input].qty, order.itm[i_input].price);
 
 			
 		}
 		generate_bill_header(order.customer,date);
-		for(int i=0;i<order.numOfitems;i++){
-			generate_bill_body(order.itm[i]);
+		for(int i_func=0; i_func<order.numOfitems; i_func++){
+			generate_bill_body(order.itm[i_func]);
 		}
 		generate_bill_footer(total);
 		printf("\n Do you want to save invoice [y/n]:\t");
@@ -81,9 +82,9 @@ int main(){
 		{
 			float total_to_show = 0;
 			generate_bill_header(order_to_show.customer, date);
-			for(int i = 0; i<order_to_show.numOfitems;i++){
-				generate_bill_body(order_to_show.itm[i]);
-				total_to_show+= order_to_show.itm[i].qty * order_to_show.itm[i].price;
+			for(int i_show = 0; i_show < order_to_show.numOfitems;i_show++){
+				generate_bill_body(order_to_show.itm[i_show]);
+				total_to_show+= order_to_show.itm[i_show].qty * order_to_show.itm[i_show].price;
 			}
 			generate_bill_footer(total_to_show);	
 		
@@ -107,9 +108,9 @@ int main(){
 			float total_to_show = 0;
 			if(!strcmp(order_to_show.customer,name)){
 				generate_bill_header(order_to_show.customer, date);
-				for(int i = 0; i<order_to_show.numOfitems;i++){
-				generate_bill_body(order_to_show.itm[i]);
-				total_to_show+= order_to_show.itm[i].qty * order_to_show.itm[i].price;
+				for(int i_search = 0; i_search<order_to_show.numOfitems;i_search++){
+				generate_bill_body(order_to_show.itm[i_search]);
+				total_to_show+= order_to_show.itm[i_search].qty * order_to_show.itm[i_search].price;
 			}
 			generate_bill_footer(total_to_show);	
 			invoiceFound = 1;

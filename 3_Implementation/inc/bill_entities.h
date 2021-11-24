@@ -17,16 +17,16 @@
 #include "math.h"
 
 typedef struct entity_item{
-char item[100];
-	float price;
-	float qty;
+char item[100];					/**< Item name */
+	float price;				/**< Item price */
+	float qty;					/**< Quantity of item */
 }items;
 
 typedef struct entity_orders{
-	char customer[100];
-	char date[30];
-	int numOfitems;
-    items itm[50];
+	char customer[100];			/**< Customer Name */
+	char date[30];			 	/**< Date */
+	int numOfitems;				/**< Number of item buyed by customer */
+    items itm[50];				/** < Item structure to store item details */
 }orders;
 
 #endif //#ifndef BILL_ENTITIES

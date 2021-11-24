@@ -1,8 +1,14 @@
-/** 
-* @file bill_operations.h
-* 
-*
-*/
+/**
+ * @file bill_operations.h
+ * @author Prince
+ * @brief Header file for function prototypes
+ * @version 0.1
+ * @date 2021-11-20
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ * 
+ */
 #ifndef __BILL_OPERATIONS_H__
 #define __BILL_OPERATIONS_H__
 
@@ -41,13 +47,26 @@ float net_total(float total);
 
 float grand_total(float net_total);
 
-/*Function to generate Bill Header */
+/**
+ * @brief Generate the bill header
+ * 
+ * @param name name of the customer
+ * @param date date 
+ */
 void generate_bill_header(char name[100], time_t date);
 
-/*Function to generate Bill Body */
+/**
+ * @brief Generate bill body
+ * 
+ * @param item item structure that contains details about item
+ */
 void generate_bill_body( items item);
 
-/*Function to generate Bill Footer */
+/**
+ * @brief Generate bill footer
+ * 
+ * @param total total amount of bill
+ */
 void generate_bill_footer(float total);
 
 
