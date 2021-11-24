@@ -63,24 +63,31 @@ Billing System is an application that will take input from user such as customer
 
 ---
 
-| HLR   | Description            |
-| ----- | ---------------------- |
-| HLR_1 | Do Calculations        |
-| HLR_2 | GST or Discount Option |
-| HLR_3 | Generate Invoice       |
+| HLR   | Description                                                                                | Status      |
+| ----- | ------------------------------------------------------------------------------------------ | ----------- |
+| HLR_1 | App will able to do the all calculations that are required to generate bill amount         | Implemented |
+| HLR_2 | Amount of discount and GST will be added to the total amount of bill after calculations    | Implemented |
+| HLR_3 | App will able to generate the Bill Invoice which contains cutomer details and item details | Implemented |
+| HLR_4 | App will able to save the generated invoice if storekeeper wants to save it                | Implemented |
+| HLR_5 | App will able to search the invoice of a particular item from the saved invoices           | Implemented |
 
 ## Low Level Requirements
 
 ---
 
-| LLR HLR_1   | Description                                      |
-| ----------- | ------------------------------------------------ |
-| LLR_1 HLR_1 | Get data from standard input                     |
-| LLR_2 HLR_1 | Compute the data by doing appropriate operations |
-| LLR_3 HLR_1 | Return the amount                                |
+| LLR HLR_1   | Description                                                                          | Status      |
+| ----------- | ------------------------------------------------------------------------------------ | ----------- |
+| LLR_1 HLR_1 | Get data from standard input                                                         | Implemented |
+| LLR_2 HLR_1 | Compute the data by doing appropriate operations and pass it to appropriate function | Implemented |
+| LLR_3 HLR_1 | Return the amount after doing the caculations                                        | Implemented |
 
-| LLR HLR_2   | Description                                         |
-| ----------- | --------------------------------------------------- |
-| LLR_1 HLR_2 | Check if user want add GST or give Discount         |
-| LLR_2 HLR_2 | Do the operation on Total amount according to input |
-| LLR_3 HLR_2 | Return the final amount                             |
+| LLR HLR_2   | Description                                                        | Status      |
+| ----------- | ------------------------------------------------------------------ | ----------- |
+| LLR_1 HLR_2 | Deduct the discount amount and add GST amount to final bill amount | Implemented |
+| LLR_2 HLR_2 | Return the final amount                                            | Implemented |
+
+| LLR HLR_4   | Description                                            | Status      |
+| ----------- | ------------------------------------------------------ | ----------- |
+| LLR_1 HLR_4 | Open the file or create file if no file created before | Implemented |
+| LLR_2 HLR_4 | Write the invoice details into the file                | Implemented |
+| LLR_2 HLR_4 | Return the file pointer and close the file             | Implemented |
