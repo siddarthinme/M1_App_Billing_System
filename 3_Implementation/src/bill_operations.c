@@ -5,7 +5,7 @@ float total_bill(float qty, float price){
     return 0;
     float total=0;
         total = qty * price;
-            return total;        
+        return total;        
     
 }
 
