@@ -37,3 +37,7 @@ However this application is specially designed for the local Grocery Store.
 ---
 
 _[Manual to run project](https://github.com/samstyle321/M1_App_Billing_System/tree/main/3_Implementation)_
+
+## Project Gif
+
+![Project Gif](./6_ImagesAndVideos/Project_gif.gif)
