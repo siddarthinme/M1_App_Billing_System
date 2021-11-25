@@ -40,4 +40,6 @@ _[Manual to run project](https://github.com/samstyle321/M1_App_Billing_System/tr
 
 ## Project Gif
 
+---
+
 ![Project Gif](./6_ImagesAndVideos/Project_gif.gif)
