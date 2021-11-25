@@ -2,4 +2,4 @@
 
 ## Project Video
 
-![Project video](Video_project.wmv)
+![Project video](Video_project.mp4)
